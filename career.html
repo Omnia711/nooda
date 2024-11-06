@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brilliant Pharma Trading</title>
+    <!-- Style  -->
+    <link rel="icon" type="image/png" href="" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap"
+    />
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/odometer.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      input[type="file"]::file-selector-button {
+        border: none;
+        background: var(--main-color);
+        padding: 18px 15px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 500;
+      }
+      .career input[type="submit"] {
+        border: none;
+        background: var(--main-color);
+        height: fit-content;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 500;
+      }
+      input[type="submit"]:hover,
+      input[type="file"]::file-selector-button:hover {
+        background: rgb(53, 117, 53);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- Cursor -->
+    <div class="cursor js-cursor"></div>
+    <!-- Start Navbar -->
+    <div data-include="nav.html"></div>
+    <!-- End Navbar -->
+
+    <!-- Contact Box -->
+    <div class="contact-box section-padding">
+      <div class="container">
+        <div class="row mb-45">
+          <div class="col-md-12 text-center">
+            <h1 class="wow" data-splitting>Available Jobs</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 wow fadeInUp" data-wow-delay=".2s">
+            <div class="item">
+              <h5>Customer Service</h5>
+              <h6 style="margin-bottom: 5px; margin-top: 10px">Requirment:</h6>
+              <ul style="list-style: circle">
+                <li>Lorem ipsum dolor</li>
+                <br />
+                <li>Lorem ipsum dolor</li>
+                <br />
+                <li>Lorem ipsum dolor</li>
+                <br />
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay=".4s">
+            <div class="item">
+              <h5>Administrative</h5>
+              <h6 style="margin-bottom: 5px; margin-top: 10px">Requirment:</h6>
+              <ul style="list-style: circle">
+                <li>Lorem ipsum dolor</li>
+                <br />
+                <li>Lorem ipsum dolor</li>
+                <br />
+                <li>Lorem ipsum dolor</li>
+                <br />
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay=".6s">
+            <div class="item">
+              <h5>IT Support Specialist</h5>
+              <h6 style="margin-bottom: 5px; margin-top: 10px">Requirment:</h6>
+              <ul style="list-style: circle">
+                <li>Lorem ipsum dolor</li>
+                <br />
+                <li>Lorem ipsum dolor</li>
+                <br />
+                <li>Lorem ipsum dolor</li>
+                <br />
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- career  -->
+    <section class="contact section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <h6>Your Dream Job is Just a Click Away</h6>
+            <h5>Join Our Team</h5>
+            <form method="post" class="contact__form" action="">
+              <!-- Form elements -->
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input
+                    name="name"
+                    type="text"
+                    placeholder="Name *"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input
+                    name="email"
+                    type="email"
+                    placeholder="Email Address *"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input
+                    name="phone"
+                    type="text"
+                    placeholder="Phone *"
+                    required
+                  />
+                </div>
+                <div class="col-md-12 form-group">
+                  <input
+                    name=""
+                    type="text"
+                    placeholder="Job title *"
+                    required
+                  />
+                </div>
+                <div class="col-md-12 d-flex career">
+                  <input type="file" name="" id="" style="border: none" />
+                  <input type="submit" value="Submit" class="mt-3 me-2" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Footer -->
+
+    <div data-include="footer.html"></div>
+    <!-- Js  -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/before-after.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/ripples.min.js"></script>
+    <script src="js/odometer.js"></script>
+
+    <script src="js/custom.js"></script>
+  </body>
+</html>
